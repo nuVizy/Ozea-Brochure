@@ -8,6 +8,7 @@ import VenueHire from './components/VenueHire';
 import Suites from './components/Suites';
 import Pricing from './components/Pricing';
 import CuratedCollections from './components/CuratedCollections';
+import Calculator from './components/Calculator';
 import Dining from './components/Dining';
 import Drinks from './components/Drinks';
 import Suppliers from './components/Suppliers';
@@ -36,6 +37,8 @@ const App: React.FC = () => {
       <Pricing />
       {/* 9.5 Curated Collections (Signature) */}
       <CuratedCollections />
+      {/* 9.7 Calculator */}
+      <Calculator />
       {/* 10 Dining and Menus */}
       <Dining />
       {/* 11 Drinks Packages */}
